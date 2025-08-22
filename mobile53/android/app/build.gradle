@@ -1,0 +1,7 @@
+// ... resto do arquivo build.gradle
+
+dependencies {
+    // ... outras dependências
+    implementation project(':react-native-tts')
+    implementation project(':@react-native-voice_voice')
+}
