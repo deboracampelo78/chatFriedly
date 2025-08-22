@@ -115,8 +115,8 @@ export default function App() {
 
                 Speech.speak(m.text, {
                   language: 'pt-BR',
-                  rate: 1.40,    // velocidade mais lenta (valores entre 0.1 e 2.0)
-                  pitch: 0.4,    // tom um pouco mais alto (valores entre 0.5 e 2.0)
+                  rate: 1.30,    // velocidade mais lenta (valores entre 0.1 e 2.0)
+                  pitch: 1.1,    // tom um pouco mais alto (valores entre 0.5 e 2.0)
                   volume: 0.6,   // volume máximo (valores entre 0.0 e 1.0)
                   onStart: () => setIsSpeaking(true),
                   onDone: () => setIsSpeaking(false),
